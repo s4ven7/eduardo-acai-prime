@@ -9,10 +9,11 @@ export default function App() {
           <Text style={styles.titleHeader}>Açaí Prime</Text>
           <Text style={styles.subTitleHeader}>Sabor puro da Amazônia</Text>
         </View>
-        
-          <Image style={styles.avatarIcone} source={require("./assets/imagemPerfil.jpg")}></Image>
-        
-
+        <Image style={styles.avatarIcone} source={require("./assets/imagemPerfil.jpg")}></Image>
+      </View>
+      <View>
+        <Text style={styles.altidorTitulo}>Refresque seu dia!</Text>
+        <Text style={styles.altidorSubTitulo}>Escolha seu açaí favorito hoje</Text>
       </View>
     </ScrollView>
   );
@@ -43,13 +44,9 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 22,
-
+    borderWidth:3,
     borderColor:"#b700ffff",
-
     justifyContent: "center",
     alignItems: "center"
   },
-
-  
-
 });
